@@ -217,8 +217,8 @@ a { color: inherit; }
 
 .pest-grid {
   flex: 0 0 auto;
-  min-height: 137px;
-  height: 137px;
+  min-height: 110px;
+  height: 110px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
@@ -244,7 +244,7 @@ a { color: inherit; }
 }
 .pest-photo {
   flex: 1 1 auto;
-  min-height: 50px;
+  min-height: 32px;
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -612,5 +612,5 @@ a { color: inherit; }
 @media (max-height: 700px) {
   .app { height: auto; max-height: none; min-height: 100dvh; overflow: visible; }
   body { overflow: auto; }
-  .pest-grid { min-height: 137px; height: 137px; }
+  .pest-grid { min-height: 110px; height: 110px; }
 }
