@@ -65,27 +65,17 @@ a { color: inherit; }
 .brand {
   display: flex;
   align-items: center;
-  gap: 5px;
-  text-decoration: none;
   min-width: 0;
+  flex: 1 1 auto;
+  text-decoration: none;
 }
-.brand-mark { width: 30px; height: 30px; flex: 0 0 auto; }
-.brand-lockup { display: flex; flex-direction: column; line-height: 0.9; min-width: 0; }
-.brand-word {
-  font-size: 12.5px;
-  font-weight: 800;
-  letter-spacing: -0.45px;
-  color: var(--navy);
-  white-space: nowrap;
-}
-.brand-word span { color: var(--green); }
-.brand-tld {
-  align-self: flex-end;
-  margin-top: 1px;
-  font-size: 8px;
-  font-weight: 800;
-  color: var(--green);
-  letter-spacing: 0.2px;
+.brand-logo {
+  display: block;
+  height: 34px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: left center;
 }
 .header-actions { display: flex; align-items: center; gap: 5px; flex: 0 0 auto; }
 .icon-btn, .call-btn, .wa-btn {
@@ -108,13 +98,10 @@ a { color: inherit; }
 }
 .icon-btn svg, .call-btn svg, .wa-btn svg { width: 16px; height: 16px; }
 .call-btn {
-  padding: 0 8px;
   border: 1.5px solid var(--green);
-  background: #fff;
   color: var(--green);
 }
 .wa-btn {
-  padding: 0 8px;
   border: 0;
   background: var(--green);
   color: #fff;
@@ -217,8 +204,8 @@ a { color: inherit; }
 
 .pest-grid {
   flex: 0 0 auto;
-  min-height: 110px;
-  height: 110px;
+  min-height: 99px;
+  height: 99px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
@@ -244,7 +231,7 @@ a { color: inherit; }
 }
 .pest-photo {
   flex: 1 1 auto;
-  min-height: 32px;
+  min-height: 29px;
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -612,5 +599,5 @@ a { color: inherit; }
 @media (max-height: 700px) {
   .app { height: auto; max-height: none; min-height: 100dvh; overflow: visible; }
   body { overflow: auto; }
-  .pest-grid { min-height: 110px; height: 110px; }
+  .pest-grid { min-height: 99px; height: 99px; }
 }
