@@ -461,22 +461,22 @@ a { color: inherit; }
 
 .deep {
   flex: 0 0 auto;
-  padding: 6px 7px 6px;
+  padding: 4px 6px 4px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  border-radius: 12px;
+  gap: 3px;
+  border-radius: 10px;
   background: #f3f7fc;
   border-color: #d3e2f2;
 }
-.deep-head { display: flex; align-items: center; gap: 6px; }
-.deep-head svg { width: 20px; height: 20px; flex: 0 0 auto; }
-.deep-head strong { display: block; font-size: 12px; line-height: 1.05; color: var(--navy); }
-.deep-head a { font-size: 10px; font-weight: 700; color: var(--blue); text-decoration: none; }
+.deep-head { display: flex; align-items: center; gap: 5px; }
+.deep-head svg { width: 16px; height: 16px; flex: 0 0 auto; }
+.deep-head strong { display: block; font-size: 11px; line-height: 1; color: var(--navy); }
+.deep-head a { font-size: 9px; font-weight: 700; color: var(--blue); text-decoration: none; }
 .deep-services {
   display: flex;
   flex-wrap: nowrap;
-  gap: 3px;
+  gap: 2px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -487,10 +487,10 @@ a { color: inherit; }
   border: 1px solid #d3e2f2;
   border-radius: 999px;
   color: var(--navy);
-  font-size: 8.5px;
+  font-size: 7.5px;
   font-weight: 750;
   line-height: 1;
-  padding: 3px 2px;
+  padding: 2px 1px;
   text-align: center;
   white-space: nowrap;
 }
@@ -501,11 +501,11 @@ a { color: inherit; }
   background: var(--navy);
   color: #fff;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 800;
-  border-radius: 7px;
-  min-height: 24px;
-  padding: 4px 8px;
+  border-radius: 6px;
+  min-height: 20px;
+  padding: 2px 8px;
 }
 
 .action {
