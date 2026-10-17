@@ -486,6 +486,8 @@ a { color: inherit; }
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: center;
+  width: 50%;
   background: var(--navy);
   color: #fff;
   text-decoration: none;
